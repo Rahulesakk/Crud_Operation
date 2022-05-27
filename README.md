@@ -9,7 +9,7 @@
 3) And in your localhost we need to create the data base with the name "Crud_node" and after creating the data base then we need to import the table which is is attached in the with the code.
 4) After completeing the above 3 steps run the command npm start then project will start running and in the console it will show that the data base connected successfully.
 5) If the above message is displaying in the console then your database is connected.
-6) after this in the postman we need to run the api wether the crud operation is working or not for that we have 5 api 
+6) after this in the postman we need to run the api wether the crud operation is working or not for that we have 5 api.
        1) http://localhost:5002/api/v1/employee --> this api is for the listing the users in the database.
        2) http://localhost:5002/api/v1/employee/id --> This api is for  getting the specfic user detail.
            ⋅for the above 2 api we need to use GET Http method.
