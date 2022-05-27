@@ -51,4 +51,17 @@ Employee.deleteEmployee = (employeeId,result) => {
         }
     })
 }
+
+//To Update the customer by customer ID
+Employee.updateEmployee = (employeeId,data,result) => {
+    console.log("employeeId",employeeId);
+    console.log(data,"data");
+    dbConn.query(`Update customer set ? where id = ${employeeId}`,[data],(err, res)=>{
+        if(err){
+            result(null,err);
+        }else{
+            result(null,res);
+        }
+    })
+}
 module.exports = Employee;

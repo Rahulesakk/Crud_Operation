@@ -53,3 +53,14 @@ exports.deleteCustomer = (req,res)=>{
         res.send(employee)
     })
 }
+
+//to Update the customer by customer id 
+exports.updateCustomer = (req,res)=>{
+    console.log(req.params.id);
+    console.log(req.body,"body");
+    employeeModel.updateEmployee(req.params.id,req.body,(err, employee) => {
+        if(err)
+        res.send(err)
+        res.send(employee)
+    })
+}

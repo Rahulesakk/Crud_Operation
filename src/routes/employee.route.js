@@ -11,4 +11,6 @@ router.post('/',employeeController.createCustomer);
 
 router.delete('/:id',employeeController.deleteCustomer);
 
+router.patch('/:id',employeeController.updateCustomer);
+
 module.exports = router;
