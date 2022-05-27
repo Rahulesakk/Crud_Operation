@@ -10,12 +10,12 @@
 4) After completeing the above 3 steps run the command npm start then project will start running and in the console it will show that the data base connected successfully.
 5) If the above message is displaying in the console then your database is connected.
 6) after this in the postman we need to run the api wether the crud operation is working or not for that we have 5 api 
-        * http://localhost:5002/api/v1/employee --> this api is for the listing the users in the database.
-        * http://localhost:5002/api/v1/employee/id --> This api is for  getting the specfic user detail.
-           *for the above 2 api we need to use GET Http method.
-        * http://localhost:5002/api/v1/employee --> for inserting the user into the data base we need to use this api.
-           *for the above one we need to use POST Http method.
-        * http://localhost:5002/api/v1/employee/id --> To update the user details in we need to use this api.
-            *for the above one we need to use PATCH Http method.
-        * http://localhost:5002/api/v1/employee/id  --> To delete the user form the data base we need to use this api.
-            *for the above one we need to use DELETE Http method.
+        a) http://localhost:5002/api/v1/employee --> this api is for the listing the users in the database.
+        b) http://localhost:5002/api/v1/employee/id --> This api is for  getting the specfic user detail.
+        for the above 2 api we need to use GET Http method.
+        c) http://localhost:5002/api/v1/employee --> for inserting the user into the data base we need to use this api.
+        for the above one we need to use POST Http method.
+        d) http://localhost:5002/api/v1/employee/id --> To update the user details in we need to use this api.
+        for the above one we need to use PATCH Http method.
+        e) http://localhost:5002/api/v1/employee/id  --> To delete the user form the data base we need to use this api.
+        for the above one we need to use DELETE Http method.
