@@ -12,10 +12,10 @@
 6) after this in the postman we need to run the api wether the crud operation is working or not for that we have **5 api**.
     1) http://localhost:5002/api/v1/employee --> This api is for the listing the users in the database.
     2) http://localhost:5002/api/v1/employee/id --> This api is for  getting the specfic user detail.
-        </br>for the above 2 api we need to use GET Http method.**
+        </br>**for the above 2 api we need to use GET Http method.**
     3) http://localhost:5002/api/v1/employee --> For inserting the user into the data base we need to use this api.
-        **for the above one we need to use POST Http method.**
+        </br>**for the above one we need to use POST Http method.**
     4) http://localhost:5002/api/v1/employee/id --> To update the user details in we need to use this api.
-        **for the above one we need to use PATCH Http method.**
+        </br>**for the above one we need to use PATCH Http method.**
     5) http://localhost:5002/api/v1/employee/id  --> To delete the user form the data base we need to use this api.
-        **for the above one we need to use DELETE Http method.**
+        </br>**for the above one we need to use DELETE Http method.**
